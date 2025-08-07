@@ -1,7 +1,7 @@
 codigo_lista = []
 Qveiculos_lista = []
 Aveiculos_lista = []
-fodase_essa_merda = 0
+desconto = 0
 
 for i in range(5):
     
@@ -29,7 +29,8 @@ for i in Aveiculos_lista:
     if i >= 2000:
         fodase_essa_merda +=1
 
-if fodase_essa_merda != 0:
-    print(f"a media de acidentes de cidades com menos de 2000 veiculos é {sum(Aveiculos_lista)/(5 - fodase_essa_merda)}")
+if desconto != 0:
+    print(f"a media de acidentes de cidades com menos de 2000 veiculos é {sum(Aveiculos_lista)/(5 - desconto)}")
 else:
     print("a media de acidentes de cidades com menos de 2000 veiculos é 0")
+
