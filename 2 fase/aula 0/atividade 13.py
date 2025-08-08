@@ -25,11 +25,12 @@ while True:
         
         case "4":
             procurar = input("digite a tarefa que você gostaria de procurar: ")
-            if lista[procurar] == procurar:
-                print("tarefa existente")
-            else:
-                print("tarefa nao incontrada")
-            print("-"*192)
+            for i in lista:
+                if i == procurar:
+                    print("tarefa existente")
+                else:
+                    print("tarefa nao incontrada")
+                print("-"*192)
         
         case "5":
             print("saindo....")
